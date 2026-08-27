@@ -1,0 +1,55 @@
+/*Base*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&family=Nunito:wght@200..1000&display=swap');
+
+/*Paleta e fonte*/
+:root{
+    /*Paleta*/
+    --cor-primaria: #a9e190;
+    --cor-segundaria: #593c8f;
+    --cor-complementar: #b8b8ff;
+    --cor-verde-complementar: #2a8f55;
+    --cor-roxa-complementar: #170329;
+    --branco: #fff;
+    --preto: #000;
+    --cinza: #3e424d;
+    --cor-fundo: #08070d;
+
+    /*Fonte*/
+    --titulo: "Epilogue", sans-serif;
+    --texto: "Nunito", sans-serif;
+}
+
+/*Tags básicas*/
+
+html, body{
+    background-color: var(--cor-fundo);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: var(--titulo);
+    font-weight: 600;
+}
+h2{
+    font-family: var(--titulo);
+    font-weight: 500;
+}
+h3{
+    font-family: var(--titulo);
+    font-weight: 400;
+}
+
+p{
+    font-family: var(--texto);
+    color: #fff;
+}
+
+
