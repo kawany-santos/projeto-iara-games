@@ -33,18 +33,30 @@ html, body{
     width: 100%;
     overflow-x: hidden;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-h1{
+/*Tags de texto*/
+
+h1, h2, h3{
     font-family: var(--titulo);
+    color: var(--branco);
+}
+h1{
+    font-size: 4rem;
     font-weight: 600;
 }
 h2{
-    font-family: var(--titulo);
     font-weight: 500;
+    font-size: 1.2rem;
 }
 h3{
-    font-family: var(--titulo);
     font-weight: 400;
+    font-size: 1rem;
 }
 
 p{
@@ -52,4 +64,23 @@ p{
     color: #fff;
 }
 
+/*Tag link*/
 
+a{
+    color: var(--branco);
+    text-decoration: none;
+    font-family: var(--texto);
+    font-weight: 300;
+}
+a:hover{
+    color: var(--cor-complementar);
+}
+
+/*Span*/
+
+.span-roxo{
+    color: var(--cor-complementar);
+}
+.span-verde{
+    color: var(--cor-primaria);
+}
