@@ -7,9 +7,15 @@
 .topicos-secoes{
     width: 150px;
     height: 30px;
-    border: 1px solid var(--branco);
+    border: 2px solid var(--branco);
     border-radius: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #a9e190;
+    background-image: linear-gradient(122deg, #a9e190 18%, #b8b8ff 77%);
+}
+.topic-titulo{
+    color: var(--cor-roxa-complementar);
+    font-weight: 700;
 }
