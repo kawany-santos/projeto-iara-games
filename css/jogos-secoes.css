@@ -1,21 +1,78 @@
 #jogos-section{
-    background-color: bisque;
-    width: 85%;
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
-.topicos-secoes{
-    width: 150px;
-    height: 30px;
-    border: 2px solid var(--branco);
-    border-radius: 7px;
+
+
+#first-section-jogos{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #a9e190;
-    background-image: linear-gradient(122deg, #a9e190 18%, #b8b8ff 77%);
+    gap: 7%;
 }
-.topic-titulo{
-    color: var(--cor-roxa-complementar);
+#jogos-img{
+    width: 600px;
+    height: auto;
+}
+.box-info{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.texto-box{
+    font-size: 1.5rem;
+    line-height: 130%;
+}
+
+
+#jogos-populares-section{
+    width: 80%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#titulo-btn-section{
+    display: flex;
+    flex-direction: row;
+    gap: 63%;
+}
+#jogos-populares-topic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.bi-graph-up-arrow{
+    color: var(--cor-complementar);
+    font-size: 1.5rem;
+}
+#saiba-mais-btn{
+    background:none;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    gap: 10%;
+    padding-left: 1%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    border: 3px solid #6F45BD;
+    font-size: 0.9rem;
     font-weight: 700;
+}
+.bi-plus{
+    background-color: #39275B;
+    font-size: 1.3rem;
+    color: var(--branco);
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
 }
