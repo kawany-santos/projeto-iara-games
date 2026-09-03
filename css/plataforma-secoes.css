@@ -1,14 +1,18 @@
 #plataforma-section{
-    background-color: chocolate;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #first-section-plataforma{
-    background-color: rgb(77, 77, 172);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 150px;
+}
+#box-info-plataforma{
+    width: 30%;
 }
 .start-btn{
     width: 200px;
@@ -36,20 +40,176 @@
     background-image: linear-gradient(99deg, var(--cor-complementar) 0%, #6f45bd 100%);
 }
 #box-forum{
-    background-color: crimson;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 #search-bar{
-    width: 550px;
+    width: 470px;
     height: 40px;
     border-radius: 20px;
-    background-color: darkkhaki;
+    background-color: var(--cinza-claro);
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.topics-search-bar{
+    color: var(--cinza);
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: var(--texto);
 }
 .box-mensage{
-    width: 550px;
-    height: 250px;
-    background-color: cadetblue;
+    width: 470px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-claro);
     border-radius: 20px;
+    padding-left: 4%;
+    padding-top: 3%;
+    gap: 15px;
+}
+#box-mensage-right{
+    margin-right: 80px;
+}
+#box-mensage-left{
+    margin-left: 80px;
+}
+.box-img-nome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.box-img-forum{
+    background-color: chocolate;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.box-nome-titulo-forum{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+.box-nome-forum{
+    font-size: 1.3rem;
+    color: var(--cinza);
+    font-weight: 600;
+}
+.box-titulo-forum{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cinza);
+    font-family: var(--titulo);
+}
+.box-texto-forum{
+    width: 90%;
+    color: var(--cor-complementar-roxo);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+
+#personalizacao-plataforma{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fundo-vidro{
+    display: flex;
+    flex-direction: row;
+    background: rgba(217, 203, 255, 0.3);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 15px;
+    width: 1200px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+#img-perfil{
+    width: 370px;
+    height: auto;
+    border-radius: 15px;
+}
+#box-info-pefil{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#box-titulo-perfil{
+    color: var(--cor-primaria);
+    font-family: var(--titulo);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#box-texto-perfil{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+#ferramentas-plataforma{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+#box-ferramentas{
+    width: 550px;
+    height: 400px;
+    background-color: var(--cor-complementar);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    justify-content: center;
+    padding-left: 4%;
+}
+#box-info-ferramentas{
+    width: 40%;
+}
+.bi-bookmark-star{
+    font-size: 1.8rem;
+    background-color: var(--fundo-roxo);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#row-stars{
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: var(--fundo-roxo);
+    font-size: 1.3rem;
+}
+#send-mesnsage{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+i{
+    font-family: var(--texto);
+    font-size: 1.2rem;
 }
