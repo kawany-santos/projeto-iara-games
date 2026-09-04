@@ -22,6 +22,7 @@
     --cor-fundo: #08070d;
     --cinza-claro: #d9d9d9;
     --fundo-roxo: #6F45BD;
+    --fundo-footer: #0D0614;
 
     /*Fonte*/
     --titulo: "Epilogue", sans-serif;
@@ -109,3 +110,23 @@ a:hover{
     font-size: 1.2rem;
 }
 
+/*Scrollbar*/
+body::-webkit-scrollbar {
+    width: 12px;
+}
+body::-webkit-scrollbar-track {
+    background: #3f2263;
+    border-radius: 6px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor-primaria);
+    background-image: linear-gradient(180deg, #a9e190 0%, #b8b8ff 100%);
+    border-radius: 6px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: #3f2263
+                        var(--cor-primaria);
+    }
+}
