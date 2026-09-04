@@ -41,6 +41,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 300px;
 }
 
 /*Tags de texto*/

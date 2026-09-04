@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/plataforma-secoes.css">
     <link rel="stylesheet" type="text/css" href="css/sobre-empresa.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
 
     <title>Home</title>
 </head>
@@ -29,10 +30,17 @@
             </figure>
             <!--Menu de navegação-->
             <nav>
-                <a href="#hero">INÍCIO</a>
-                <a href="#jogos-section">JOGOS</a>
-                <a href="#plataforma-section">PLATAFORMA</a>
-                <a href="#sobre-section">SOBRE NÓS</a>
+                <section class="mobile-menu">
+                    <section class="line1"></section>
+                    <section class="line2"></section>
+                    <section class="line3"></section>
+                </section>
+                <ul class="nav-list">
+                    <li><a href="#hero">INÍCIO</a></li>
+                    <li><a href="#jogos-section">JOGOS</a></li>
+                    <li><a href="#plataforma-section">PLATAFORMA</a></li>
+                    <li><a href="#sobre-section">SOBRE NÓS</a></li>
+                </ul>
             </nav>
             <!--Botão de Login e Cadastro-->
             <section id="botoes-nav">
@@ -197,7 +205,7 @@
                     </section>
                     <section class="box-mensage" id="box-mensage-right">
                         <section class="box-img-nome">
-                            <section class="box-img-forum"></section>
+                            <section class="box-img-forum" id="img-perfil-karol"></section>
                             <section class="box-nome-titulo-forum">
                                 <p class="box-nome-forum">
                                     Karol Oliveira
@@ -216,7 +224,7 @@
                     </section>
                     <section class="box-mensage" id="box-mensage-left">
                         <section class="box-img-nome">
-                            <section class="box-img-forum"></section>
+                            <section class="box-img-forum" id="img-perfil-joao"></section>
                             <section class="box-nome-titulo-forum">
                                 <p class="box-nome-forum">
                                     João Pedro
@@ -335,9 +343,10 @@
                 </button>
             </section>
         </section>
+
+        <!--Linha decorativa-->
+        <section id="divisao"></section>
     </main>
-    <!--Linha decorativa-->
-    <section id="divisao"></section>
     <!--Footer-->
     <footer>
         <section id="footer-text-section">
@@ -398,5 +407,7 @@
             </small>
         </section>
     </footer>
+    <!--Script-->
+    <script src="js/mobile-navbar.js"></script>
 </body>
 </html>

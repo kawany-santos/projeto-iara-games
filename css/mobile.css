@@ -1,0 +1,173 @@
+/*Celular*/
+@media screen and (min-width: 300px) and (max-width:530px){
+    /*Corpo do site*/
+    body{
+    overflow-x: hidden;
+    display: blocks;
+    }
+
+    /*Navbar*/
+    .nav-list{
+        position: absolute;
+        top: 12vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform:  translateX(100%);
+        transition: transform 0.3s ease-in;
+        border-radius: 10px;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+
+    /*Hero*/
+    h1{
+        width: 85%;
+        font-size: 1.8rem;
+    }
+    #texto-hero{
+        font-size: 1.1rem;
+        width: 85%;
+    }
+    #botao-hero{
+        width: 200px;
+        font-size: 1.1rem;
+        gap: 35%;
+    }
+
+    /*Seção sobre jogos*/
+
+    /*1º seção*/
+    #first-section-jogos{
+        flex-direction: column-reverse;
+        width: 85%;
+        gap: 80px;
+    }
+    .box-info{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    h2{
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .texto-box{
+        font-size: 1.1rem;
+        text-align: center;
+        width: 100%;
+    }
+    #jogos-img{
+        width: 250px;
+    }
+
+
+    /*Seção sobre a plataforma*/
+    /*1º seção*/
+    #first-section-plataforma{
+        flex-direction: column;
+        width: 85%;
+    }
+    #box-forum{
+        align-items: center;
+        justify-content: center;
+    }
+    #search-bar{
+        width: 300px;
+    }
+    .topics-search-bar{
+        font-size: 0.8rem;
+    }
+    .box-mensage{
+        width: 300px;
+        height: 255px;
+        padding-left: 3%;
+        gap: 20px;
+    }
+    .box-img-forum{
+        width: 50px;
+        height: 50px;
+    }
+    #box-mensage-right, #box-mensage-left{
+        margin: 0;
+    }
+    .box-img-nome{
+        gap: 10px;
+    }
+    .box-nome-titulo-forum{
+        gap: 5px;
+        width: 70%;
+    }
+    .box-nome-forum{
+        font-size: 1.3rem;
+    }
+    .box-titulo-forum{
+        font-size: 0.9rem;
+        line-height: 130%;
+    }
+
+    /*2º seção plataforma*/
+    #fundo-vidro{
+        flex-direction: column-reverse;
+        width: 300px;
+        height: 550px;
+        gap: 30px;
+    }
+    #box-info-pefil{
+        width: 80%;
+    }
+    #box-titulo-perfil{
+        font-size: 1.5rem;
+    }
+    #box-texto-perfil{
+        font-size: 1.2rem;
+    }
+    #img-perfil{
+        width: 250px;
+    }
+    #box-info-plataforma{
+        width: 80%;
+    }
+
+    /*3º seção plataforma*/
+    #ferramentas-plataforma{
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+    #box-info-ferramentas{
+        width: 60%;
+    }
+    #box-ferramentas{
+        width: 280px;
+        height: 280px;
+    }
+    .bi-bookmark-star{
+        font-size: 1.4rem;
+        height: 35px;
+        width: 60px;
+    }
+    #row-stars{
+        width: 180px;
+        height: 35px;
+        font-size: 1.4rem;
+    }
+    #send-mesnsage i{
+        font-size: 1rem;
+        width: 190px;
+        height: 35px;
+    }
+    .fundo-send{
+        width: 50px;
+        font-size: 1.4rem;
+    }
+}
